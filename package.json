@@ -1,0 +1,29 @@
+{
+  "name": "marcroche-api-express",
+  "version": "0.0.1",
+  "description": "Website API",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcroche/marcroche-api-express.git"
+  },
+  "author": "marcroche",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcroche/marcroche-api-express/issues"
+  },
+  "homepage": "https://github.com/marcroche/marcroche-api-express#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "moment": "^2.13.0",
+    "mongoose": "^4.4.16",
+    "sequelize": "^3.23.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
+  }
+}
