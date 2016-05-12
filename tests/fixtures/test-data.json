@@ -1,0 +1,24 @@
+{
+  "collections": {
+    "users": [
+      {
+        "name": "Marc Roche",
+        "username": "I like kittens.",
+        "password": "Hash",
+        "admin": true
+      },
+      {
+        "name": "Lemmy Kilmeister",
+        "username": "Peace.",
+        "password": "Hash",
+        "admin": false
+      },
+      {
+        "name": "Prince Nelson",
+        "username": "Like it's 1999.",
+        "password": "Hash",
+        "admin": false
+      }
+    ]
+  }
+}

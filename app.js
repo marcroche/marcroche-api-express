@@ -1,6 +1,11 @@
 var express = require('express');
 var fs = require('fs');
 var path = require('path');
+var mongooseDB = require('./mongoose-db');
+
+mongooseDB.connect(mongooseDB.MODE_PRODUCTION, function() {
+    console.log("we're connected!");
+});
 
 app = express();
 
